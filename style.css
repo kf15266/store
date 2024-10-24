@@ -1,0 +1,143 @@
+
+
+table, th, td{
+  
+justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+
+    background-color: rgb(250, 215, 241);
+}
+  
+
+
+
+:root{
+   --tyrainpurple: #45062E;
+   --Hollywoodcerise: #E0479E;
+   --Chilired: #E3170A;
+   --Mimipink: #FCD3DE;
+   --Richblack: #04030F;
+}
+td:nth-child(even){
+    background-color: var(--bookpink);
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color: var(--tyrainpurple);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: var(--Mimipink);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+   background-color: #E0479E;
+   color: #04030F;
+  }
+  
+  
+
+body{
+  background-color: #FCD3DE;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  min-height: 100cap;
+  padding: 15px;
+}
+.column{
+ float: left;
+ width: 50%;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.column{
+  width: 100%;
+}
+
+.best{
+  text-align: center;
+  background-color: #E0479E;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.mission{
+  text-align: center;
+  background-color: #45062E;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+h1{
+  font-size: medium;
+  color: #FCD3DE;
+  font-family: 'Segoe UI', 
+}
+h2{
+  font-size: large;
+  color: #FCD3DE;
+}
+h3{
+  text-align: center;
+}
+.old {
+  display: flex;
+
+}
+
+
+.item{
+  border: 1px solid #E0479E;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align:center;
+  background-color: #E0479E;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+
+}
+.item h3 {
+  color: #FCD3DE;
+  font-size: larger;
+  margin bottom: 12px;
+
+
+}
+.item img {
+  width: 70%;
+  height: auto;
+  border-radius: 4px;
+}
+.item p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #04030F;
+  font-size: 1em;
+  margin: 8px 0;
+
+
+}
+.item p:last-child{
+  font-weight: bold;
+
+}
+p{text-align: center;}
